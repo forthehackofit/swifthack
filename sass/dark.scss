@@ -1,0 +1,151 @@
+// import web fonts
+@import "fonts";
+//@import "accessibility/accessibility_foundicons";
+@import "general/general_foundicons";
+
+html {
+  font-size: 62.5%;
+}
+// backgrounds
+$bodyBackground : "../images/backgrounds/background.png";
+
+// colors
+$bodyBgColor: #eeebe4;
+$headerColor: #fff;
+$bodyColor: #828a8f;
+$dividerColor: rgba(214,213,208,0.25);
+$paletteOne: rgba(250,152,88,1); //orange
+$paletteTwo: #000000;
+$paletteThree: rgba(250,250,250,1);
+$boxBg: #232323;
+//panel headers background
+$vimeoColor: #4bf;
+$youtubeColor:rgb(160,34,29);
+
+// fonts
+$bodyFont: 'Open Sans', Helvetica, Arial;
+$bodyFontSize: 1.6rem;
+$headerFont: 'Montserrat', helvetica, arial;
+$headerFontSize: 1.8rem;
+
+// web icons
+$webIconsLarge: 9rem;
+$webIconsMedium: 6rem;
+$webIconsSmall: 3rem;
+
+// measurements
+$panelBottomBorder: 0.4rem;
+
+body {
+    font-family: $bodyFont;
+    font-size: $bodyFontSize;
+    line-height: $bodyFontSize;
+    color: $bodyColor;
+    font-size: 1.5rem;
+    background-color:$bodyBgColor;
+    color: rgba(255,255,255,0.6); // text color + color overlay
+    font-family: "Montserrat", "Helvetica Neue", Arial;
+}
+
+hgroup {
+    margin: 0 auto;
+}    
+
+h1, h2, h3 {
+    font-family: $headerFont;
+    text-transform: uppercase;
+    color: $headerColor;
+    font-size: $headerFontSize;
+    font-weight: bold;
+    line-height: 2.8rem;
+}  
+
+h1 {
+    font-size: $headerFontSize * 3;
+}
+
+h2 {
+    font-size: $headerFontSize + 0.60;
+}
+
+.large-icon {
+    font-size: $webIconsLarge;
+}    
+
+#featuredBox, #slider {
+    border: 4px solid #000;
+} 
+
+#thegrid {
+}
+
+.panel {
+  background-color: $boxBg;
+  padding: 0px;
+}   
+
+#featuredBox {
+    background-color: $paletteOne;
+    color: #fff;
+}  
+
+.long-header-text {
+  background-color: $paletteTwo;
+  color: #fff;
+  h3 {
+    text-transform: none;
+    color: #fff; // text color
+    font-family: "Open Sans";
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+  }  
+}
+
+article {
+  header {
+    border-bottom: 1px solid #2e2e2e;
+    padding:2rem;
+  }
+  .content {
+    h3 {
+      padding: 1rem 2rem; 
+      margin: 0; 
+    }
+    .desc {
+      font-size: 1.6rem;
+      line-height: 3.2rem;
+      color: #fff;
+      padding: 0 2rem;
+    }
+    p {
+      margin-bottom: 0;
+      margin-top: 1.7rem;
+      padding: 0 2rem;
+    }
+  }
+  footer {
+    border-top: 0.1rem solid #2e2e2e;
+    margin-top: 1.7rem;
+    padding: 2rem;
+  }
+}
+
+/*
+ * headers background and footers borders accent colors
+ */
+.yt-header{
+  background-color: $youtubeColor;
+}
+.yt-footer {
+  border-bottom: $panelBottomBorder solid $youtubeColor;
+}
+.vimeo-header{
+  background-color: $vimeoColor;
+}
+.vimeo-footer {
+  border-bottom: $panelBottomBorder solid $vimeoColor;
+}
+.bg-debut {
+  background: url("../images/backgrounds/debut_dark.png");
+}

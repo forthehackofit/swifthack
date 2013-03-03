@@ -1,0 +1,85 @@
+// import web fonts
+@import "fonts";
+//@import "accessibility/accessibility_foundicons";
+@import "general/general_foundicons";
+
+// backgrounds
+$bodyBackground : "../images/backgrounds/background.png";
+
+// colors
+$headerColor: #5f6a72;
+$bodyColor: #828a8f;
+$dividerColor: rgba(214,213,208,0.25);
+$paletteOne: rgba(250,152,88,1); //orange
+$paletteTwo: #000000;
+$paletteThree: rgba(250,250,250,1);
+
+
+// fonts
+$bodyFont: 'Open Sans', Helvetica, Arial;
+$bodyFontSize: 1em;
+$headerFont: 'Open Sans Condensed', helvetica, arial;
+$headerFontSize: 1.25em;
+
+// web icons
+$webIconsLarge: 90px;
+$webIconsMedium: 60px;
+$webIconsSmall: 30px;
+
+body {
+    font-family: $bodyFont;
+    font-size: $bodyFontSize;
+    line-height: $bodyFontSize;
+    color: $bodyColor;
+}
+
+headergroup {
+    margin: 0 auto;
+}    
+
+h1, h2, h3 {
+    font-family: $headerFont;
+    text-transform: uppercase;
+    color: $headerColor;
+    font-size: $headerFontSize;
+    font-weight: bold;
+}  
+
+h1 {
+    font-size: $headerFontSize * 3;
+}
+
+h2 {
+    font-size: $headerFontSize + 0.60;
+}
+
+.large-icon {
+    font-size: $webIconsLarge;
+}    
+
+#featuredBox, #slider {
+    border: 4px solid #000;
+} 
+
+#thegrid {
+  margin: 10px;
+}
+
+.panel {
+  border: 2px solid $dividerColor;
+}   
+
+#featuredBox {
+    background-color: $paletteOne;
+    color: #fff;
+}  
+
+.long-header-text {
+  background-color: $paletteTwo;
+  color: #fff;
+  h3 {
+    text-transform: none;
+    color: #fff;
+    line-height: 2.6em;
+  }  
+}

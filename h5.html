@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Welcome to Foundation | Grid</title>
+
+  <!-- Included CSS Files (Uncompressed) -->
+  <!--
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  -->
+  
+  <!-- Included CSS Files (Compressed) -->
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  <link rel="stylesheet" href="stylesheets/linecons.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+  <link rel="stylesheet" href="stylesheets/plugins/audioplayer.css">
+  <link rel="stylesheet" href="stylesheets/plugins/music-payer.css" />
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="stylesheets/app.css">
+  <link rel="stylesheet" href="stylesheets/dark.css">
+  <script src="javascripts/foundation/modernizr.foundation.js"></script>
+</head>
+<body>
+
+  <!-- Header and Nav -->
+
+  <nav class="top-bar">
+    <ul>
+      <!-- Title Area -->
+      <li class="name">
+        <h1>
+          <a href="#">
+            Top Bar Title
+          </a>
+        </h1>
+      </li>
+      <li class="toggle-topbar"><a href="#"></a></li>
+    </ul>
+<!-- 
+    <section>
+      <!-- Left Nav Section --
+      <ul class="left">
+        <li class="divider"></li>
+        <li class="has-dropdown">
+          <a class="active" href="#">Main Item 1</a>
+          <ul class="dropdown">
+            <li><label>Section Name</label></li>
+            <li><a href="#" class="">Dropdown Level 1</a></li>
+            <li><a href="#">Dropdown Option</a></li>
+            <li><a href="#">Dropdown Option</a></li>
+            <li class="divider"></li>
+            <li><label>Section Name</label></li>
+            <li><a href="#">Dropdown Option</a></li>
+            <li><a href="#">Dropdown Option</a></li>
+            <li><a href="#">Dropdown Option</a></li>
+            <li class="divider"></li>
+            <li><a href="#">See all &rarr;</a></li>
+          </ul>
+        </li>
+        <li class="divider"></li>
+        <li><a href="#">Main Item 2</a></li>
+        <li class="divider"></li>
+        <li class="has-dropdown">
+          <a href="#">Main Item 3</a>
+          <ul class="dropdown">
+            <li><a href="#">Dropdown Option</a></li>
+            <li><a href="#">Dropdown Option</a></li>
+            <li><a href="#">Dropdown Option</a></li>
+            <li class="divider"></li>
+            <li><a href="#">See all &rarr;</a></li>
+          </ul>
+        </li>
+        <li class="divider"></li>
+      </ul>
+
+      <!-- Right Nav Section --
+      <ul class="right">
+        <li class="divider"></li>
+        <li class="has-dropdown">
+          <a href="#">Main Item 4</a>
+          <ul class="dropdown">
+            <li><label>Section Name</label></li>
+            <li class="has-dropdown">
+              <a href="#" class="">Has Dropdown, Level 1</a>
+              <ul class="dropdown">
+                <li><a href="#">Dropdown Options</a></li>
+                <li><a href="#">Dropdown Options</a></li>
+                <li class="has-dropdown">
+                  <a href="#">Has Dropdown, Level 2</a>
+                  <ul class="dropdown test">
+                    <li><a href="#">Subdropdown Option</a></li>
+                    <li><a href="#">Subdropdown Option</a></li>
+                    <li><a href="#">Subdropdown Option</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Subdropdown Option</a></li>
+                <li><a href="#">Subdropdown Option</a></li>
+                <li><a href="#">Subdropdown Option</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Dropdown Option</a></li>
+            <li><a href="#">Dropdown Option</a></li>
+            <li class="divider"></li>
+            <li><label>Section Name</label></li>
+            <li><a href="#">Dropdown Option</a></li>
+            <li><a href="#">Dropdown Option</a></li>
+            <li><a href="#">Dropdown Option</a></li>
+            <li class="divider"></li>
+            <li><a href="#">See all &rarr;</a></li>
+          </ul>
+        </li>
+        <li class="divider"></li>
+        <li><a href="#">Main Item 5</a></li>
+        <li class="divider"></li>
+        <li class="has-dropdown">
+          <a href="#">Main Item 6</a>
+          <ul class="dropdown">
+            <li><a href="#">Dropdown Option</a></li>
+            <li><a href="#">Dropdown Option</a></li>
+            <li><a href="#">Dropdown Option</a></li>
+            <li class="divider"></li>
+            <li><a href="#">See all &rarr;</a></li>
+          </ul>
+        </li>
+      </ul>
+    </section>-->
+  </nav> 
+
+
+  <!-- End Header and Nav -->
+
+  <!-- Main Grid Section -->
+  <div class="row">
+	  <section id="" class="six columns" role="main">
+	  	<div class="row">
+	  		
+		  <article class="tile twelve columns featured">
+		  	<div class="panel radius">
+		  	<header class="meta">
+				<i class="li_user"></i><span class="author"> Mashappslabs</span>
+				<time datetime="2013-02-22T23:43Z">
+					<i class="li_calendar"></i><span class="date"> February 22nd 2013</span> 
+					<i class="li_clock"></i><span class="time"> 11:43pm</span>
+				</time>
+			</header>
+			<section class="content">
+			<h3 class="vimeo-header">Paris, The City of Light</h3>	
+		    <div class="flex-video widescreen vimeo">
+	            <iframe src="http://player.vimeo.com/video/56467095?title=0&amp;byline=0&amp;portrait=0&amp;badge=0" width="600" height="337" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+	        </div>
+		    <div class="desc">
+		    	Liverpool Football Club's participation in European competitions organised by Union of European Football Associations (UEFA) 
+		    	began in 1964. Since then, Liverpool have won eleven European trophies, making them Britain's most successful team in UEFA 
+		    	competitions.
+		    </div>
+		    </section>
+		    <footer class="vimeo-footer">
+		    	<i class="li_bubble"></i><span> 25 responses</span>
+		    	<i class="li_params"></i><span> Music,World</span>
+		    	<span>Permalink</span>
+		    </footer>
+		   </div>
+		  </article>
+		  
+		  <article class="tile twelve columns">
+			  	<div class="panel radius">
+			  	<header class="meta">
+					<span class="author">Mashappslabs</span>
+					<span class="time">2:02:33 AM</span>
+				</header>
+				<section class="content">
+				<h3 class="yt-header">Toumani Diabateh - Master Kora Player</h3>	
+			    <div class="flex-video widescreen">
+		            <iframe width="420" height="315" src="http://www.youtube.com/embed/pqImC_1P2vY" frameborder="0" allowfullscreen></iframe>
+		        </div>
+		        <div class="desc">
+		        	Toumani Diabaté is a Malian kora player. In addition to performing the traditional music of Mali, he has also been involved in 
+		        	cross-cultural collaborations with flamenco, blues, jazz, and other international styles.
+		        </div>
+			    </section>
+			    <footer class="yt-footer">
+			    	<span>25 responses</span>
+			    	<span>Music,World</span>
+			    	<span>Permalink</span>
+			    </footer>
+			   </div>
+			  </article>
+		  	
+		</div>    	 
+ 	</section>  
+ 	<aside  class="six columns">
+ 		<div class="row" id="thegrid">
+		 	 <article class="tile six columns">
+			  	<div class="panel radius">
+			  	<header class="meta">
+					<span class="author">Mashappslabs</span>
+					<span class="time">2:02:33 AM</span>
+				</header>
+				<section class="content">
+				<h3>Taraxacum Californicum</h3>	
+			    <img src="images/vladstudio/vladstudio_dandelion_1600x1200.jpg" alt="dandelion" />
+			    <audio preload="auto" controls>
+						<source src="audio/BlueDucks_FourFlossFiveSix.mp3">
+						<source src="audio/BlueDucks_FourFlossFiveSix.ogg">
+						<source src="audio/BlueDucks_FourFlossFiveSix.wav">
+			            <!-- <source src="audio/Miaow-04-Lismore.mp3"> -->
+			    </audio>
+			    <div class="desc">
+			    	Taraxacum is a large genus of flowering plants in the family Asteraceae. They are native to Eurasia and North and South America, 
+			    	and two species, T. officinale and T. erythrospermum, are found as weeds worldwide.
+			    </div>
+			    </section>
+			    <footer>
+			    	<span>25 responses</span>
+			    	<span>Music,World</span>
+			    	<span>Permalink</span>
+			    </footer>
+			   </div>
+			  </article>
+				  
+			  <article class="tile six columns">
+			  	<div class="panel radius">
+			  	<header class="meta">
+					<span class="author">Mashappslabs</span>
+					<span class="time">2:02:33 AM</span>
+				</header>
+				<section class="content">
+				<h3 class="yt-header">Toumani Diabateh - Master Kora Player</h3>	
+			    <div class="flex-video widescreen">
+		            <iframe width="420" height="315" src="http://www.youtube.com/embed/pqImC_1P2vY" frameborder="0" allowfullscreen></iframe>
+		        </div>
+		        <div class="desc">
+		        	Toumani Diabaté is a Malian kora player. In addition to performing the traditional music of Mali, he has also been involved in 
+		        	cross-cultural collaborations with flamenco, blues, jazz, and other international styles.
+		        </div>
+			    </section>
+			    <footer class="yt-footer">
+			    	<span>25 responses</span>
+			    	<span>Music,World</span>
+			    	<span>Permalink</span>
+			    </footer>
+			   </div>
+			  </article>
+			  
+			  <article class="tile six columns">
+		  	<div class="panel radius bg-debut">
+		  	<header class="meta">
+				<span class="author">Mashappslabs</span>
+				<span class="time">2:02:33 AM</span>
+			</header>
+			<section class="content">
+			<h3>ITunes Top 10</h3>	
+    		<div id="playlist">
+    			
+    		</div>
+		    </section>
+		    <footer>
+		    	<span>25 responses</span>
+		    	<span>Music,World</span>
+		    	<span>Permalink</span>
+		    </footer>
+		   </div>
+		  </article>
+		  
+		  <article class="tile six columns">
+		  	<div class="panel radius">
+		  	<header class="meta">
+				<span class="author">Mashappslabs</span>
+				<span class="time">2:02:33 AM</span>
+			</header>
+			<section class="content">
+			<h3>Taraxacum Californicum</h3>	
+		    <img src="images/vladstudio/vladstudio_dandelion_1600x1200.jpg" alt="dandelion" />
+		    <audio preload="auto" controls>
+					<source src="audio/BlueDucks_FourFlossFiveSix.mp3">
+					<source src="audio/BlueDucks_FourFlossFiveSix.ogg">
+					<source src="audio/BlueDucks_FourFlossFiveSix.wav">
+		            <!-- <source src="audio/Miaow-04-Lismore.mp3"> -->
+		    </audio>
+		    <div class="desc">
+		    	Taraxacum is a large genus of flowering plants in the family Asteraceae. They are native to Eurasia and North and South America, 
+		    	and two species, T. officinale and T. erythrospermum, are found as weeds worldwide.
+		    </div>
+		    </section>
+		    <footer>
+		    	<span>25 responses</span>
+		    	<span>Music,World</span>
+		    	<span>Permalink</span>
+		    </footer>
+		   </div>
+		  </article>
+		  
+		  <article class="tile six columns">
+		  	<div class="panel radius">
+		  	<header class="meta">
+				<span class="author">Mashappslabs</span>
+				<span class="time">2:02:33 AM</span>
+			</header>
+			<section class="content">
+			<h3 class="yt-header">Toumani Diabateh - Master Kora Player</h3>	
+		    <div class="flex-video widescreen">
+	            <iframe width="420" height="315" src="http://www.youtube.com/embed/pqImC_1P2vY" frameborder="0" allowfullscreen></iframe>
+	        </div>
+	        <div class="desc">
+	        	Toumani Diabaté is a Malian kora player. In addition to performing the traditional music of Mali, he has also been involved in 
+	        	cross-cultural collaborations with flamenco, blues, jazz, and other international styles.
+	        </div>
+		    </section>
+		    <footer class="yt-footer">
+		    	<span>25 responses</span>
+		    	<span>Music,World</span>
+		    	<span>Permalink</span>
+		    </footer>
+		   </div>
+		  </article>
+		  
+		  <article class="tile six columns">
+		  	<div class="panel radius">
+		  	<header class="meta">
+				<span class="author">Mashappslabs</span>
+				<span class="time">2:02:33 AM</span>
+			</header>
+			<section class="content">
+			<h3>Responsive Audio Player</h3>	
+		    <img src="images/vladstudio/vladstudio_dandelion_1600x1200.jpg" alt="dandelion" />
+		    <audio preload="auto" controls>
+					<source src="audio/BlueDucks_FourFlossFiveSix.mp3">
+					<source src="audio/BlueDucks_FourFlossFiveSix.ogg">
+					<source src="audio/BlueDucks_FourFlossFiveSix.wav">
+		            <!-- <source src="audio/Miaow-04-Lismore.mp3"> -->
+		    </audio>
+		    <p>This is a three columns grid panel with an arbitrary height. This is a three columns grid panel with an arbitrary height.</p>
+		    <p>This is a three columns grid panel with an arbitrary height. This is a three columns grid panel with an arbitrary height.</p>
+		    </section>
+		    <footer>
+		    	<span>25 responses</span>
+		    	<span>Music,World</span>
+		    	<span>Permalink</span>
+		    </footer>
+		   </div>
+		  </article>
+			  
+		</div>	  
+ 	</aside>
+  </div>	  
+
+  <!-- End Grid Section -->
+
+
+
+  <!-- Footer -->
+
+  <footer class="row">
+    <div class="twelve columns">
+      <hr />
+      <div class="row">
+        <div class="six columns">
+          <p>&copy; Copyright no one at all. Go to town.</p>
+        </div>
+        <div class="six columns">
+          <ul class="link-list right">
+            <li><a href="#">Section 1</a></li>
+            <li><a href="#">Section 2</a></li>
+            <li><a href="#">Section 3</a></li>
+            <li><a href="#">Section 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Included JS Files (Uncompressed) -->
+  <!--
+  
+  <script src="javascripts/jquery.js"></script>
+  
+  <script src="javascripts/jquery.foundation.mediaQueryToggle.js"></script>
+  
+  <script src="javascripts/jquery.foundation.forms.js"></script>
+  
+  <script src="javascripts/jquery.event.move.js"></script>
+  
+  <script src="javascripts/jquery.event.swipe.js"></script>
+  
+  <script src="javascripts/jquery.foundation.reveal.js"></script>
+  
+  <script src="javascripts/jquery.foundation.orbit.js"></script>
+  
+  <script src="javascripts/jquery.foundation.navigation.js"></script>
+  
+  <script src="javascripts/jquery.foundation.buttons.js"></script>
+  
+  <script src="javascripts/jquery.foundation.tabs.js"></script>
+  
+  <script src="javascripts/jquery.foundation.tooltips.js"></script>
+  
+  <script src="javascripts/jquery.foundation.accordion.js"></script>
+  
+  <script src="javascripts/jquery.placeholder.js"></script>
+  
+  <script src="javascripts/jquery.foundation.alerts.js"></script>
+  
+  <script src="javascripts/jquery.foundation.topbar.js"></script>
+  
+  <script src="javascripts/jquery.foundation.joyride.js"></script>
+  
+  <script src="javascripts/jquery.foundation.clearing.js"></script>
+  
+  <script src="javascripts/jquery.foundation.magellan.js"></script>
+  
+  -->
+  
+  <!-- Included JS Files (Compressed) -->
+  <script src="javascripts/foundation/jquery.js"></script>
+  <script src="javascripts/foundation/foundation.min.js"></script>
+  <script src="javascripts/plugins/audioplayer.js"></script>
+  <script src="javascripts/plugins/jquery-jplayer/jquery.jplayer.js"></script>
+  <script src="javascripts/plugins/ttw-music-player.js"></script>
+  <script src="javascripts/plugins/jquery-masonry.js"></script>
+  <script src="javascripts/build-playlists.js"></script>
+  
+  
+  <!-- Initialize JS Plugins -->
+  
+  <script>
+      
+      /*
+				VIEWPORT BUG FIX
+				iOS viewport scaling bug fix, by @mathias, @cheeaun and @jdalton
+			*/
+			(function(doc){var addEvent='addEventListener',type='gesturestart',qsa='querySelectorAll',scales=[1,1],meta=qsa in doc?doc[qsa]('meta[name=viewport]'):[];function fix(){meta.content='width=device-width,minimum-scale='+scales[0]+',maximum-scale='+scales[1];doc.removeEventListener(type,fix,true);}if((meta=meta[meta.length-1])&&addEvent in doc){fix();scales=[.25,1.6];doc[addEvent](type,fix,true);}}(document));
+      
+      
+        // Masonry corner stamp modifications
+ 
+      
+      $(window).load(function() {
+      	  	
+      	  	buildPlaylist("http://ax.itunes.apple.com/WebObjects/MZStoreServices.woa/ws/RSS/topsongs/limit=10/xml");
+      
+            $( function() { $( 'audio' ).audioPlayer(); } );
+      
+            var $container = $('#thegrid');
+
+           $container.imagesLoaded( function(){
+			  $container.masonry({
+			    itemSelector : '.tile'
+			  });
+		   });	  
+            
+           
+           // $("#playlist").iTunesPlaylist({
+           	// url: "http://ax.itunes.apple.com/WebObjects/MZStoreServices.woa/ws/RSS/topsongs/limit=10/xml"
+           // });
+      
+      });
+  </script>
+</body>
+</html>

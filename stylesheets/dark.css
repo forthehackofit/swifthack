@@ -1,0 +1,402 @@
+/* font-face */
+@font-face {
+  font-family: "GeneralFoundicons";
+  src: url("../fonts/general/general_foundicons.eot");
+  src: url("../fonts/general/general_foundicons.eot?#iefix") format("embedded-opentype"), url("../fonts/general/general_foundicons.woff") format("woff"), url("../fonts/general/general_foundicons.ttf") format("truetype"), url("../fonts/general/general_foundicons.svg#GeneralFoundicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* global foundicon styles */
+/* line 8, ../sass/general/general_foundicons.scss */
+[class*="foundicon-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+/* line 18, ../sass/general/general_foundicons.scss */
+[class*="foundicon-"]:before {
+  font-family: "GeneralFoundicons";
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+}
+
+/* icons */
+/* line 4, ../sass/fonts.scss */
+.foundicon-settings:before {
+  content: "\f000";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-heart:before {
+  content: "\f001";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-star:before {
+  content: "\f002";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-plus:before {
+  content: "\f003";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-minus:before {
+  content: "\f004";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-checkmark:before {
+  content: "\f005";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-remove:before {
+  content: "\f006";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-mail:before {
+  content: "\f007";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-calendar:before {
+  content: "\f008";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-page:before {
+  content: "\f009";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-tools:before {
+  content: "\f00a";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-globe:before {
+  content: "\f00b";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-home:before {
+  content: "\f00c";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-quote:before {
+  content: "\f00d";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-people:before {
+  content: "\f00e";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-monitor:before {
+  content: "\f00f";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-laptop:before {
+  content: "\f010";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-phone:before {
+  content: "\f011";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-cloud:before {
+  content: "\f012";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-error:before {
+  content: "\f013";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-right-arrow:before {
+  content: "\f014";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-left-arrow:before {
+  content: "\f015";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-up-arrow:before {
+  content: "\f016";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-down-arrow:before {
+  content: "\f017";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-trash:before {
+  content: "\f018";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-add-doc:before {
+  content: "\f019";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-edit:before {
+  content: "\f01a";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-lock:before {
+  content: "\f01b";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-unlock:before {
+  content: "\f01c";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-refresh:before {
+  content: "\f01d";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-paper-clip:before {
+  content: "\f01e";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-video:before {
+  content: "\f01f";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-photo:before {
+  content: "\f020";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-graph:before {
+  content: "\f021";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-idea:before {
+  content: "\f022";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-mic:before {
+  content: "\f023";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-cart:before {
+  content: "\f024";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-address-book:before {
+  content: "\f025";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-compass:before {
+  content: "\f026";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-flag:before {
+  content: "\f027";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-location:before {
+  content: "\f028";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-clock:before {
+  content: "\f029";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-folder:before {
+  content: "\f02a";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-inbox:before {
+  content: "\f02b";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-website:before {
+  content: "\f02c";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-smiley:before {
+  content: "\f02d";
+}
+
+/* line 4, ../sass/fonts.scss */
+.foundicon-search:before {
+  content: "\f02e";
+}
+
+/* line 6, ../sass/dark.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 39, ../sass/dark.scss */
+body {
+  font-family: "Open Sans", Helvetica, Arial;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  color: #828a8f;
+  font-size: 1.5rem;
+  background-color: #eeebe4;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Montserrat", "Helvetica Neue", Arial;
+}
+
+/* line 50, ../sass/dark.scss */
+hgroup {
+  margin: 0 auto;
+}
+
+/* line 54, ../sass/dark.scss */
+h1, h2, h3 {
+  font-family: "Montserrat", helvetica, arial;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 2.8rem;
+}
+
+/* line 63, ../sass/dark.scss */
+h1 {
+  font-size: 5.4rem;
+}
+
+/* line 67, ../sass/dark.scss */
+h2 {
+  font-size: 2.4rem;
+}
+
+/* line 71, ../sass/dark.scss */
+.large-icon {
+  font-size: 9rem;
+}
+
+/* line 75, ../sass/dark.scss */
+#featuredBox, #slider {
+  border: 4px solid #000;
+}
+
+/* line 82, ../sass/dark.scss */
+.panel {
+  background-color: #232323;
+  padding: 0px;
+}
+
+/* line 87, ../sass/dark.scss */
+#featuredBox {
+  background-color: #fa9858;
+  color: #fff;
+}
+
+/* line 92, ../sass/dark.scss */
+.long-header-text {
+  background-color: black;
+  color: #fff;
+}
+/* line 95, ../sass/dark.scss */
+.long-header-text h3 {
+  text-transform: none;
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+}
+
+/* line 106, ../sass/dark.scss */
+article header {
+  border-bottom: 1px solid #2e2e2e;
+  padding: 2rem;
+}
+/* line 111, ../sass/dark.scss */
+article .content h3 {
+  padding: 1rem 2rem;
+  margin: 0;
+}
+/* line 115, ../sass/dark.scss */
+article .content .desc {
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  color: #fff;
+  padding: 0 2rem;
+}
+/* line 121, ../sass/dark.scss */
+article .content p {
+  margin-bottom: 0;
+  margin-top: 1.7rem;
+  padding: 0 2rem;
+}
+/* line 127, ../sass/dark.scss */
+article footer {
+  border-top: 0.1rem solid #2e2e2e;
+  margin-top: 1.7rem;
+  padding: 2rem;
+}
+
+/*
+ * headers background and footers borders accent colors
+ */
+/* line 137, ../sass/dark.scss */
+.yt-header {
+  background-color: #a0221d;
+}
+
+/* line 140, ../sass/dark.scss */
+.yt-footer {
+  border-bottom: 0.4rem solid #a0221d;
+}
+
+/* line 143, ../sass/dark.scss */
+.vimeo-header {
+  background-color: #44bbff;
+}
+
+/* line 146, ../sass/dark.scss */
+.vimeo-footer {
+  border-bottom: 0.4rem solid #44bbff;
+}
+
+/* line 149, ../sass/dark.scss */
+.bg-debut {
+  background: url("../images/backgrounds/debut_dark.png");
+}
